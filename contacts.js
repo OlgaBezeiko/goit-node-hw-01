@@ -42,7 +42,7 @@ async function addContact(name, email, phone) {
   try {
     const contacts = await listContacts();
     const newContact = {
-      id, //nanoid(),
+      //id: nanoid(),
       name,
       email,
       phone,
